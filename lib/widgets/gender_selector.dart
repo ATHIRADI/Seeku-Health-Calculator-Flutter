@@ -39,7 +39,7 @@ class GenderSelectorState extends State<GenderSelector> {
   @override
   Widget build(BuildContext context) {
     return ReusableBgCard(
-      heightFactor: 0.18,
+      heightFactor: 0.20,
       color: widget.backgroundColor ?? Theme.of(context).cardColor,
       cardChild: Column(
         mainAxisAlignment: MainAxisAlignment.center,
